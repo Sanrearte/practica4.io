@@ -1,0 +1,54 @@
+.index{
+
+    background-color: rgb(75, 75, 75);
+    color: white;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 3px 2px black;
+}
+
+.boton_interaccion{
+    float: left;
+}
+
+.boton_index{
+
+    float: right;
+}
+
+.descripcion{
+
+    border: 2px solid gray;
+}
+
+.tenis{
+    float: left;
+    padding: 2px;
+}
+
+.natacion{
+    float: right;
+    padding: 2px;
+}
+
+.comoda{
+    float: left;
+    padding: 2px;
+}
+
+.comoda2{
+    float: right;
+    padding: 2px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.interaccion{
+    text-align: center;
+    background-color: rgb(75, 75, 75);
+    color: white;
+}

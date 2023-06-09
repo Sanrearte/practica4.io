@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envio del Producto</title>
+    <script src="./funciones.js"></script>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body class="interaccion">
+
+    <header>
+        <h1>
+            <button class="boton_interaccion" type="button"><a href="index.html" target="_blank">Regresar a Inicio</a></button>
+            Compra de Productos SportsClub
+        </h1>
+    </header>
+
+    <br> <br> <br>
+
+    <form>
+        <span>
+            Nombre de la Persona: 
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese un nombre" required>* <br> <br>
+        </span>
+        <span>
+            Apellido de la Persona: 
+            <input type="text" id="apellido" name="apellido" placeholder="Ingrese un apellido" required>* <br> <br>
+        </span>
+        <span>
+            Mail: 
+            <input type="email" id="mail" name="mail" placeholder="Ingrese un mail" required>* <br> <br>
+        </span>
+        <span>
+            Conjunto: 
+            <select id="conjunto">
+                <option value="" selected="selected" hidden="hidden"></option>
+                <option value="tenis">Tenis</option>
+                <option value="natacion">Natacion</option>
+                <option value="comoda">Comodo</option>
+            </select> <br> <br>
+        </span>
+        <span>
+            Talle
+            <select id="talle">
+                <option value="" selected="selected" hidden="hidden"></option>
+                <option value="xxs">XXS</option>
+                <option value="xs">XS</option>
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+                <option value="xxl">XXL</option>
+            </select> <br> <br>
+        </span>
+        <span>
+            Color: 
+            <input type="checkbox" id="rojo" name="rojo" value="rojo" /> Rojo
+            <input type="checkbox" id="negro" name="Negro" value="negro" /> Negro
+            <input type="checkbox" id="azul" name="azul" value="azul" /> Azul <br> <br>
+        </span>
+
+        <button type="button" onclick="descuentos()">CALCULAR</button>
+        <button type="button" onclick="borrar()">BORRAR</button>
+    </form> <br>
+
+    Total a Pagar: <div id="resultado1"></div>
+
+</body>
+</html>
